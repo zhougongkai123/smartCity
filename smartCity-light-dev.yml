@@ -18,5 +18,5 @@ rabbitmq:
    username: root
    password: root 
    
-from: qbs   
+from: dev   
       
