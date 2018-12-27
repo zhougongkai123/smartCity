@@ -17,7 +17,11 @@ rabbitmq:
    host: localhost
    port: 5672
    username: root
-   password: root      
+   password: root
+   
+feign:
+  hystrix:
+    enabled: true   
       
 
 from: qbs
