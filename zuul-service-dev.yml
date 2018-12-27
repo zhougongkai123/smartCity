@@ -1,0 +1,9 @@
+spring:
+  security:
+    user:
+      name: root
+      password: 123
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@peer1:8001/eureka/
