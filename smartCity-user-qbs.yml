@@ -18,5 +18,10 @@ rabbitmq:
    username: root
    password: root 
    
+feign:
+  hystrix:
+    enabled: true   
+   
+   
 from: qbs 
    
